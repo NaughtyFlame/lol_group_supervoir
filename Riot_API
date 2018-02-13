@@ -1,0 +1,21 @@
+
+
+summonerID: 103079603
+
+https://www.jianshu.com/p/376a6c6fa754
+
+官网例子：
+https://developer.riotgames.com/
+
+Myself:
+https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/JoyCJay?api_key=RGAPI-03817577-7d0c-44bf-8cb8-44fcf4777795
+
+curl --request GET 'https://euw1.api.riotgames.com/lol/summoner/v3/summoners/by-name/JoyCJay?api_key=RGAPI-03817577-7d0c-44bf-8cb8-44fcf4777795' --include
+
+https://euw1.api.riotgames.com/lol/spectator/v3/active-games/by-summoner/103719784?api_key=RGAPI-04300ced-335b-438d-8804-8b71e0d9e0cb
+
+
+
+timeArray =
+otherStyleTime = time.strftime("%m-%d %H:%M:%S", time.localtime(1381419600))
+print otherStyleTime   # 2013--10--10 23:40:00
